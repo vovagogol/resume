@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(131, 131, 131);
+    font-family: sans-serif;
+}
+ul {
+    position: relative;
+    width: 450px;
+    margin: 100px auto 0;
+    padding: 10px;
+    box-sizing: border-box ;
+    background: rgba(0,0,0,.1);
+    box-shadow: inset 0 0 15px rgba(0,0,0,.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+ul li {
+   display: flex;
+   background-color: rgba(255,255,255,.1) ;
+   padding: 10px 20px;
+   color: #fff;
+   margin: 5px 0px;
+   transition: .5s;
+    
+}
+ul li span:nth-child(1)
+{
+    width: 30px;
+}
+ul li:hover
+{
+    transform: scale(1.06);
+    background: rgb(131, 131, 131) ;
+    text-decoration: line-through;
+}
+h3 {
+    display: flex;
+    background-color: #4a4f56;
+    padding: 10px 20px;
+    margin: 5px 0px; 
+    position: absolute;
+    left: 459px;
+    right: 459px;
+    width: 450px;
+    box-sizing: border-box;
+    text-underline-position: auto;
+}
+.title {
+    background-color: #4a4f56;
+    text-align: center;
+    left: 459px;
+    right: 459px;
+    color: #eb7e7f;
+}
+.task input:checked ~ .text {
+text-decoration: line-through;
+}
+.h1 h2 {
+    margin: -50%;
+    padding: -50%;
+}
+.check ~ .i {
+    text-decoration: line-through;    
+}

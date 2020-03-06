@@ -1,0 +1,46 @@
+body {
+    background-attachment: fixed;
+    font-size: 18px;
+}
+
+h1 {
+    margin: bottom;
+}
+.container {
+        width: 700px;
+        margin: 0 auto;
+        padding: 20px;
+}
+.header {
+    text-align: center;
+    background-color: #ac2b67;
+    color: #f5e45e;
+    
+}
+
+.header-img {
+    width: 1000;
+    height: 3000;
+    background-position: center center;
+    padding: 15px 0 5px 0;
+    margin: auto;
+}
+
+.cars-list {
+    width: 277;
+    height: 120;
+}
+
+.cars-list img {
+    border: 3px dashed #000;
+}
+
+.p {
+    padding-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
