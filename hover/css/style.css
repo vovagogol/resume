@@ -1,0 +1,76 @@
+@import url(https://github.com/google/roboto/)
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+body {
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.message {
+    background: red;
+    position: relative;
+    padding: 25px 50px;
+    margin-bottom: 20px;
+}
+.message :hover {
+    opacity: 1;
+    z-index: 2;
+    transition: all 2s ease-in-out;
+}
+.message.green: {
+    background: #578718;
+}
+.message :before {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 26px;
+    width: 0;
+    height: 0;
+    border-top: 50% solid transparent;
+    border-right: 26px solid red;
+    border-bottom: 13px solid transparent;
+}
+.green:before {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 26px;
+    width: 0;
+    height: 0;
+    border-top: 50% solid transparent;
+    border-right: 26px solid red;
+    border-bottom: 13px solid transparent;
+}
+.message1 {
+    width: 300px;
+    left: 0;
+    top: 10px;
+}
+.message2 {
+    width: 300px;
+    left: 0;
+    top: 10px; 
+}
+.message3 {
+    width: 300px;
+    left: 0;
+    top: 10px; 
+}
+.message4 {
+    width: 300px;
+    left: 0;
+    top: 10px; 
+}

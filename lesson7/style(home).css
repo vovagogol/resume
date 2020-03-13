@@ -1,0 +1,14 @@
+body {
+margin: 100px;
+padding: 40px;
+background-color: #ecbf41;
+}
+div {
+display: -webkit-flex;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+margin: auto;
+}
