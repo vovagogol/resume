@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.header h1 {
+	padding-top: 109px;
+	color: #3c3c3c;
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.header hr {
+	width: 45px;
+	height: 4px;
+	background-color: #dddbdb;
+	justify-content: center;
+}
+
+.header p {
+	padding: 40px 0 50px;
+	display: inline-block;
+	max-width: 561px;
+	color: #3c3c3c;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.photos {
+	padding-bottom: 117px;
+}
+
+.photo-wrapper {
+	cursor: pointer;
+}
+
+.photo-wrapper .img {
+	width: 269px;
+	height: 268px;
+	transition: all 0.4s linear;
+}
+
+.photo-wrapper .lead {
+	background-image: url("h_1.png");
+}
+
+.photo-wrapper .developer {
+	background-image: url("h_2.png");
+}
+
+.photo-wrapper .artist {
+	background-image: url("h_3.png");
+}
+
+.photo-wrapper .graphic {
+	background-image: url("h_4.png");
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #00aed9;
+	opacity: 0;
+	transition: all 0.4s linear;
+}
+
+.social span {
+	background-color: #5ecbe6;
+	margin: 4px;
+	transition: all 0.1s linear;
+}
+.social span i {
+	color: white;
+	padding: 12px;
+	font-size: 24px;
+}
+
+.photo-wrapper .img .social:hover {
+	opacity: 1;
+}
+
+.photo-wrapper .img:hover {
+	animation: rotto 1s linear;
+}
+
+.photo-wrapper .img:not(:hover) .social {
+	transform: scale(0);
+}
+
+.social span:hover {
+	transform: scale(1.1);
+	box-shadow: white 0 0 4px;
+}
+
+.photo h2 {
+	color: #282528;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 21px;
+}
+
+.photo p {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 10px;
+}
+
+@keyframes rotto {
+	0% {transform: rotateY(0deg);}
+	5% {transform: rotateY(10deg);}
+	10% {transform: rotateY(20deg);}
+	15% {transform: rotateY(30deg);}
+	20% {transform: rotateY(40deg);}
+	25% {transform: rotateY(50deg);}
+	30% {transform: rotateY(60deg);}
+	35% {transform: rotateY(70deg);}
+	40% {transform: rotateY(80deg);}
+	45% {transform: rotateY(90deg);}
+	50% {transform: rotateY(100deg);}
+	55% {transform: rotateY(110deg);}
+	60% {transform: rotateY(120deg);}
+	65% {transform: rotateY(130deg);}
+	70% {transform: rotateY(140deg);}
+	75% {transform: rotateY(150deg);}
+	80% {transform: rotateY(160deg);}
+	90% {transform: rotateY(170deg);}
+	100% {transform: rotateY(180deg);}
+}
