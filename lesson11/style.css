@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  font-family: Raleway;
+}
+
+.wrapper {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.contactScreen {
+  background: url("../img/bg_contact.png") no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  color: #262626;
+  font-family: Pacifico;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+.contact_head {
+  text-align: center;
+  padding-top: 101px;
+}
+.contact_head h1 {
+  color: #262626;
+  font-size: 90px;
+  font-weight: 700;
+}
+.contact_desc {
+  margin: 48px auto;
+  max-width: 370px;
+  text-align: center;
+  line-height: 25px;
+}
+.contact_desc p {
+  color: #262626;
+  font-size: 17px;
+  font-weight: 300;
+}
+.contact_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+.contact_wrapper form input:not([type=submit]),
+.contact_wrapper form textarea {
+  border: none;
+  width: 500px;
+  height: 50px;
+  background-color: #00c4c4;
+  opacity: 0.5;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.contact_wrapper form input:not([type=submit]):hover,
+.contact_wrapper form textarea:hover {
+  box-shadow: 5px 0px 0px 0px #355b82 inset;
+  opacity: 1;
+}
+.contact_wrapper form textarea {
+  max-height: 250px;
+  height: 250px;
+  max-width: 500px;
+}
+.contact_wrapper form [type=submit] {
+  width: 220px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #00c4c4;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.contact_wrapper form [type=submit]:hover {
+  background-color: #009191;
+}
+.contact_wrapper-adress h2 {
+  color: #262626;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.contact_wrapper-adress p {
+  font-weight: 300;
+  padding-bottom: 21px;
+}
+
+.footerColor {
+  background-color: #262626;
+  margin-top: 120px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_copy {
+  color: #b9b9b9;
+  font-size: 16px;
+  font-weight: 300;
+}
+.footer_logo {
+  color: #b9b9b9;
+  font-family: Pacifico;
+  font-size: 25px;
+  padding: 0;
+}
+.footer_made {
+  color: #b9b9b9;
+  font-size: 15px;
+  font-weight: 300;
+}
+.footer_made a {
+  color: #ff2b58;
+  font-weight: 700;
+  text-decoration: none;
+}
