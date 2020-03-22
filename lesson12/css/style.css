@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato;
+}
+
+.wrapper {
+  max-width: 922px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.mainScreen {
+  display: block;
+  background: url("../img/mainScreenBg.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  height: 100vh;
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header_logo {
+  width: 67px;
+  height: 67px;
+  fill: white;
+}
+.header_text {
+  margin: 94px 0 53px;
+  color: #fff;
+  font-size: 44px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  text-align: center;
+}
+.header_desc {
+  max-width: 579px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 29px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+.header_mous {
+  position: absolute;
+  width: 23px;
+  height: 37px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-11px);
+}
+
+.about fieldset {
+  margin: 150px 0;
+}
+.about fieldset:nth-child(1) {
+  padding-top: 65px;
+}
+.about fieldset legend {
+  margin: 0 auto;
+  padding: 0 53px;
+  color: #3c3c3c;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+}
+.about fieldset p {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 530px;
+  padding-bottom: 29px;
+  color: #3c3c3c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.services {
+  display: block;
+  background: url("../img/services.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 115px 0 109px;
+}
+.services fieldset {
+  padding: 65px 0 30px;
+}
+.services fieldset legend {
+  margin: 0 auto;
+  color: white;
+  padding: 0 53px;
+  color: #fff;
+  font-size: 34px;
+  font-weight: 700;
+}
+.services fieldset p {
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  max-width: 530px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.whatwedo {
+  text-align: center;
+}
+.whatwedo fieldset {
+  margin: 105px 0 114px;
+  padding-bottom: 92px;
+}
+.whatwedo fieldset legend {
+  margin: 0 auto;
+  padding: 0 53px;
+  color: #3c3c3c;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.whatwedo fieldset object {
+  padding-top: 112px;
+}
+.whatwedo fieldset h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 37px 0 40px;
+}
+.whatwedo fieldset p {
+  margin: 0 auto;
+  max-width: 534px;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1920px;
+}
+.imgs_img {
+  margin: 4px;
+  position: relative;
+}
+.imgs_img:hover {
+  cursor: pointer;
+}
+.imgs_img:hover span {
+  color: #262626;
+  transform: scale(1.1);
+}
+.imgs_img span {
+  position: absolute;
+  bottom: 44px;
+  left: 44px;
+  color: #fff;
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  transition: all 0.7s linear;
+}
+.imgs_img-1, .imgs_img-3, .imgs_img-4, .imgs_img-6 {
+  flex: 1 1 350px;
+  height: 237px;
+}
+.imgs_img-2, .imgs_img-5 {
+  flex: 2 1 550px;
+  height: 237px;
+}
+.imgs_img-1 {
+  background: url("../img/01.png") no-repeat;
+  background-size: coverz;
+}
+.imgs_img-2 {
+  background: url("../img/03.png") no-repeat;
+  background-size: cover;
+}
+.imgs_img-3 {
+  background: url("../img/05.png") no-repeat;
+  background-size: cover;
+}
+.imgs_img-4 {
+  background: url("../img/02.png") no-repeat;
+  background-size: cover;
+}
+.imgs_img-5 {
+  background: url("../img/04.png") no-repeat;
+  background-size: cover;
+}
+.imgs_img-6 {
+  background: url("../img/06.png") no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  padding-top: 134px;
+}
+.contact fieldset legend {
+  margin: 0 auto;
+  padding: 0 50px;
+  color: #3c3c3c;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4.76px;
+}
+.contact fieldset p {
+  max-width: 534px;
+  margin: 59px auto 42px;
+  text-align: center;
+  color: #3c3c3c;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.89px;
+}
+.contact fieldset input {
+  display: block;
+  margin: 0 auto 50px;
+  width: 300px;
+  height: 58px;
+  border: 2px solid #3c3c3c;
+  background-color: #3c3c3c;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.54px;
+  cursor: pointer;
+}
+.contact fieldset input:hover {
+  background-color: white;
+  color: #3c3c3c;
+}
+.contact fieldset a {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 0;
+}
+footer object {
+  width: 35px;
+  height: 37px;
+  margin-right: 36px;
+}
+footer .copy {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: 400;
+}
