@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body{
+  background-color: #9789f9;
+}
+
+/* Layout */
+.ba-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+}
+.ba-pricing {
+  display: flex;
+  flex-direction: row;
+}
+.ba-price {
+  width: 300px;
+  display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	justify-content: center;
+	margin: 50px 30px;
+	align-items: center;
+	line-height: 26px;
+	padding: 16px 0;
+	transition: all 0.4s ease;
+  flex-wrap: wrap;
+
+}
+.ba-pricing__col :hover {
+  transform: scale(1.05);
+	cursor: pointer;
+}
+.ba-price__rate {
+font-family: "Bebas Neue - Thin";
+font-size: 60px;
+font-weight: 400;
+line-height: 36px;
+text-transform: uppercase;
+letter-spacing: 4.8px;
+}
+sub {
+  font-size: 24px;
+  bottom: 39px;
+}
+sup {
+  font-size: 16px;
+  top: 0;
+}
+.ba-price__position {
+font-family: "Bebas Neue Regular";
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+text-transform: uppercase;
+letter-spacing: 0.96px;
+}
+.ba-price__body {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 53px;
+}
+.ba-price__body img {
+margin-left: 80px ;
+}
+.ba-button {
+width: 203px;
+height: 54px;
+color: #ffffff;
+font-family: "Bebas Neue Bold";
+font-size: 18px;
+font-weight: 400;
+line-height: 53px;
+box-shadow: 4px 8px 130px rgba(133, 192, 247, 0.31);
+border-radius: 27px;
+background-color: #6fcffb;
+text-align: center;
+}
+.ba-button:hover {
+width: 203px;
+height: 54px;
+color: #ffffff;
+font-family: "Bebas Neue Bold";
+font-size: 18px;
+font-weight: 400;
+line-height: 53px;
+box-shadow: 2px 4px 18px rgba(253, 141, 123, 0.31);
+border-radius: 27px;
+background-color: #fd8d7b; 
+}
+/* .ba-pricing__col.ba-pricing__col--center {
+width: 350px;
+height: 691px;
+background-color: #fff;
+} */
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
