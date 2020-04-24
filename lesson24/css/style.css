@@ -1,0 +1,53 @@
+body {
+    padding: 50px;
+    font-family: sans-serif;
+}
+ul {
+    position: relative;
+    width: 450px;
+    margin: 20px auto 0;
+    padding: 10px;
+    box-sizing: border-box ;
+    background: rgba(0,0,0,.1);
+    box-shadow: inset 0 0 15px rgba(0,0,0,.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+ul li {
+   display: flex;
+   background-color: lightblue ;
+   padding: 10px 20px;
+   color: black;
+   margin: 5px 0px;
+   transition: .5s;   
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+li:hover {
+    background:#d6331d;
+    border-top: 2px solid #614e4e;
+    border-bottom: 2px solid #c9a7a7;
+}
+
+input:checked,
+input:checked ~ span {
+    text-decoration: line-through;
+    color: rgb(148, 196, 19);
+}
+
+li.rows span::after {
+    color: rgb(172, 131, 211);
+    font-size: 20px;
+}
+.title {
+    text-align: center;
+    left: 459px;
+    right: 459px;
+    color: #eb7e7f;
+}
+.task input:checked ~ .text {
+    text-decoration: line-through;
+    }
