@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>DOM</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		fieldset {
+			margin: 30px auto;
+			text-align: center;
+			max-width: 700px;
+		}
+		legend {
+			padding: 20px;
+		}
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		li {
+			list-style: none;
+			margin:10px;
+		}
+		button {
+			font-size: 17px;
+			cursor: pointer;
+			padding: 5px;
+		}
+
+	</style>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<fieldset>
+		<legend>DOM</legend>
+		<ul>
+			<li>
+				<button id="task1" type="submit">Завдання 1</button>
+			</li>
+			<li>
+				<button id="task2" type="submit">Завдання 2</button>
+			</li>
+			<li>
+				<button id="task3" type="submit">Завдання 3</button>
+			</li>
+		</ul>
+	</fieldset>
+	<div class="modalWindow">
+		<div class="text">
+			<span>X</span>
+			<p>Создать HTML-страницу с кнопкой "Открыть" и модальным окном. На модальном окне должен быть текст и кнопка "Закрыть". Изначально модальное окно не отображается. При клике на кнопку "Открыть" появляется модальное окно, на кнопку "Закрыть" – исчезает. </p>
+		</div>
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>
