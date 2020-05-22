@@ -1,0 +1,83 @@
+.latestNews
+	background: url("../img/latestNews/latestNews_bg.png"), linear-gradient(45deg, #3c7fd4 0%, #24ccfa 100%)
+	background-size: cover
+	padding: 120px 0 100px
+	&__title
+		text-align: center
+		color: #fff
+		font-family: Gotham, sans-serif
+		font-size: 44px
+		font-weight: 500
+		line-height: 42px
+		text-transform: uppercase
+		position: relative
+		padding: 50px 0 120px
+		&:before
+			content: ""
+			width: 100px
+			height: 1px
+			background-color: #fff
+			position: absolute
+			display: block
+			left: 50%
+			top: 0
+			transform: translateX(-50px)
+	&__slider
+		margin: 0 auto
+		ul.slick-dots
+			display: block
+			position: relative
+			li
+				border: 1px solid white
+				border-radius: 50%
+				width: 9px
+				height: 9px
+				margin: 20px
+				button
+					display: none
+		
+		&--item
+			max-width: 370px
+			background-color: #fff
+			margin: 0 10px
+		.text
+			padding: 20px
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+			&__textWrapper
+				h2
+					color: #2c4058
+					font-family: Gotham,sans-serif
+					font-size: 20px
+					font-weight: 300
+					line-height: 34px
+					text-transform: uppercase
+				p
+					color: #4b5562
+					font-family: Open-Sans,sans-serif
+					font-size: 18px
+					font-weight: 300
+					line-height: 30px
+					margin: 20px 0 35px
+			&__people
+				display: flex
+				align-items: center
+				img
+					width: 60px
+					height: 60px
+				&--desc
+					margin-left: 20px
+					.name
+						color: #2c4058
+						font-family: GothamBook,sans-serif
+						font-size: 14px
+						font-weight: 400
+						text-transform: uppercase
+					.date
+						color: #55b7ff
+						font-family: GothamBook,sans-serif
+						font-size: 12px
+						font-weight: 400
+						
+	
