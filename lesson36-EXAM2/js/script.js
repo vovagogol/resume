@@ -18,7 +18,7 @@ $(document).ready(function(){
 	 return false;
   });
 
-  $('.slider').slick({
+  	$('.slider').slick({
 	 arrows: false,
 	 infinite:true,
 	 autoplay: true,
@@ -28,9 +28,9 @@ $(document).ready(function(){
 	 verticalSwiping: true,
 	 vertical: true,
 	 dots: true
-  });
+  	});
 
-  $('.latestNews__slider').slick({
+  	$('.latestNews__slider').slick({
 	 arrows: true,
 	 infinite:true,
 	 autoplay: true,
@@ -39,27 +39,27 @@ $(document).ready(function(){
 	 slidesToScroll:1,
 	 dots: true,
 	 responsive: [
-		{
-		  breakpoint: 944,
-		  settings: {
-			 slidesToShow: 2,
-			 slidesToScroll: 1,
-			 infinite: true,
-			 arrows: false,
-			 dots: true
-		  }
-		},
-		{
-		  breakpoint: 632,
-		  settings: {
-			 slidesToShow: 1,
-			 slidesToScroll: 1,
-			 infinite: true,
-			 arrows: false,
-			 dots: true
-		  }
-		}
-	 ]
-  });
+			{
+		  	breakpoint: 944,
+		  		settings: {
+			 	slidesToShow: 2,
+			 	slidesToScroll: 1,
+			 	infinite: true,
+			 	arrows: false,
+			 	dots: true
+		 		}	
+			},
+			{
+		  	breakpoint: 632,
+		  		settings: {
+			 	slidesToShow: 1,
+			 	slidesToScroll: 1,
+			 	infinite: true,
+			 	arrows: false,
+			 	dots: true
+		  		}
+			}
+		]
+  	});
 
 });
